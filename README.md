@@ -17,7 +17,7 @@ npm install
 npm start
 ```
 
-Will be running on localhost 3001.
+Will be running on localhost:3001.
 
 ## Env variables
 Note: You will need to create an AWS account to populate the following fields in the .env

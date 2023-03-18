@@ -36,5 +36,6 @@ AWS_SECRET_KEY=""
 
 ## TODO
 
-- [ ] Design more detailed application dashboard.
-- [ ] Add tests.
+- [ ] Implement instant messaging with matches
+- [ ] Add OAuth login feature
+- [ ] Add tests

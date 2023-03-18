@@ -1,7 +1,9 @@
 # Friender (backend)  
 Backend to social app for finding new friends.
 
-Deployed on: https://sanchez-friender.onrender.com
+Deployed on: https://sanchez-friender.onrender.com  
+**Username: guest
+Password: password**
 
 To access Friender frontend codebase: https://github.com/amaesanchez/Friender-frontend.git  
 

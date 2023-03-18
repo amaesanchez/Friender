@@ -9,7 +9,7 @@ To access Friender frontend codebase: https://github.com/amaesanchez/Friender-fr
 - Use of AWS S3 Bucket for image storage
 - Swiping feature in React, using an algorithm leveraging user zipcode and locaiton preference to find the next potential match. 
 
-## Environment Setup Backend
+## Local Setup
 
 1. Seed `friender` and `friender_test` databases in PostgreSQL.
 

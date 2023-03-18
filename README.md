@@ -1,6 +1,7 @@
-# Friender-backend
+# Friender (backend)  
+Backend to social app for finding new friends.
 
-Backend deployed on: https://sanchez-friender.onrender.com
+Deployed on: https://sanchez-friender.onrender.com
 
 To access Friender frontend codebase: https://github.com/amaesanchez/Friender-frontend.git  
 
@@ -10,12 +11,18 @@ To access Friender frontend codebase: https://github.com/amaesanchez/Friender-fr
 
 ## Environment Setup Backend
 
-```
-git clone [repo url]
-psql -f jobly.sql jobly
-npm install
-npm start
-```
+1. Seed `jobly` database in PostgreSQL.
+
+    ```
+    psql -f jobly.sql jobly
+    ```
+    
+2. Install dependencies and start app.
+
+    ```
+    npm install
+    npm start
+    ```
 
 Will be running on localhost:3001.
 
@@ -26,3 +33,8 @@ AWS_BUCKET_NAME=""
 AWS_BUCKET_REGION=""  
 AWS_ACCESS_KEY=""  
 AWS_SECRET_KEY=""  
+
+## TODO
+
+- [ ] Design more detailed application dashboard.
+- [ ] More tests.

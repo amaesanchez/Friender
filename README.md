@@ -11,17 +11,17 @@ To access Friender frontend codebase: https://github.com/amaesanchez/Friender-fr
 
 ## Environment Setup Backend
 
-1. Seed `jobly` database in PostgreSQL.
+1. Seed `friender` and `friender_test` databases in PostgreSQL.
 
     ```
-    psql -f jobly.sql jobly
+    psql -f friender.sql
     ```
     
 2. Install dependencies and start app.
 
     ```
     npm install
-    npm start
+    node server.js
     ```
 
 Will be running on localhost:3001.
@@ -37,4 +37,4 @@ AWS_SECRET_KEY=""
 ## TODO
 
 - [ ] Design more detailed application dashboard.
-- [ ] More tests.
+- [ ] Add tests.
